@@ -313,3 +313,30 @@ footer {
 .social-icons i.fa-linkedin-in {
   color: #4a6cf7;
 }
+button,
+.grand-spain button,
+.grand-spain2 button,
+.text-content button {
+  background-color: #496bfe;
+  color: white;
+  padding: 15px;
+  width: 50%;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover,
+button:focus,
+.grand-spain button:hover,
+.grand-spain button:focus,
+.grand-spain2 button:hover,
+.grand-spain2 button:focus,
+.text-content button:hover,
+.text-content button:focus {
+  background-color: #3654d1;
+  transform: scale(1.05);
+  outline: none;
+}

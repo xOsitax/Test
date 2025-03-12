@@ -114,6 +114,36 @@
   cursor: pointer;
 }
 
+footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  background-color: #232323;
+}
+
+.footercontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: white;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -668,4 +698,34 @@ footer {
 
 .social-icons i.fa-linkedin-in {
   color: #4a6cf7;
+}
+
+button,
+.grand-spain button,
+.grand-spain2 button,
+.text-content button {
+  background-color: #496bfe;
+  color: white;
+  padding: 15px;
+  width: 50%;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover,
+button:focus,
+.grand-spain button:hover,
+.grand-spain button:focus,
+.grand-spain2 button:hover,
+.grand-spain2 button:focus,
+.text-content button:hover,
+.text-content button:focus {
+  background-color: #3654d1;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  outline: none;
 }
