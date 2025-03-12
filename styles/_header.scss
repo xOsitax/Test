@@ -6,9 +6,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-size: cover;
   text-align: center;
   position: relative;
   color: white;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
 }
 .navbar {
   position: absolute;
