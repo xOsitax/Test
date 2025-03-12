@@ -1,4 +1,75 @@
-@use "fonts";
+.head {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/images/image1.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+.navbar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #5474fd;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
 
-@import "header";
-@import "footer";
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 14px;
+}
+.hero-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    font-size: 48px;
+  }
+}
+.hero-content h2 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search-box {
+  display: flex;
+  background: white;
+  width: 450px;
+  margin: 20px;
+  padding: 10px;
+}
+.search-box input {
+  border: white;
+  border-width: 20px;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  outline: white;
+  text-align: center;
+}
+.search-box button {
+  background-color: #5474fd;
+  color: white;
+  border: white;
+  width: 50%;
+
+  cursor: pointer;
+}
