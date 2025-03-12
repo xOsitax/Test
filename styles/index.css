@@ -637,3 +637,23 @@ footer {
   text-align: center;
   color: white;
 }
+
+.social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons i {
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.social-icons i.fa-linkedin-in {
+  color: #4a6cf7;
+}
